@@ -1,0 +1,9 @@
+node_modules/
+artifacts/
+.env
+.env.*
+*.log
+*.pem
+*.key
+rpc-url
+.DS_Store
