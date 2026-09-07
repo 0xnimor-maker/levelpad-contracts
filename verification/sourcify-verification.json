@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-09-07T16:43:22.865Z",
+  "chainId": "4663",
+  "address": "0x21a4CF32F7Ff2dC8c88A2fb7cD12Ad25bD2fA0cC",
+  "verifiedAt": "2026-09-07T16:40:35Z",
+  "matchId": "47245666",
+  "match": "exact_match",
+  "creationMatch": "exact_match",
+  "runtimeMatch": "exact_match",
+  "compilation": {
+    "language": "Solidity",
+    "compiler": "solc",
+    "compilerVersion": "0.8.30+commit.73712a01",
+    "compilerSettings": {
+      "viaIR": true,
+      "libraries": {},
+      "optimizer": {
+        "runs": 200,
+        "enabled": true
+      },
+      "evmVersion": "shanghai"
+    },
+    "name": "StockFeeHook",
+    "fullyQualifiedName": "contracts/StockFeeHook.sol:StockFeeHook"
+  },
+  "deployment": {
+    "transactionHash": "0xc5297a0dfdd97d1d91fa417bee05d4de4cfcf3cc4c79c5ccae48a8fc6f11f934",
+    "blockNumber": "56790590",
+    "transactionIndex": "1",
+    "deployer": "0xD6EdDa2207D42A0f5A0D3D930b29079823500b53"
+  },
+  "runtimeCodeHash": "0xe8abee375bccff5335840677cca23433f59c26f08a83b98030e05680a3a028e9",
+  "sourceFilesMatchLocal": [
+    {
+      "path": "contracts/StockFeeHook.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/IPoolManager.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/types/PoolKey.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/types/PoolId.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/types/Currency.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/types/PoolOperation.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/types/BalanceDelta.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/types/BeforeSwapDelta.sol",
+      "matches": true
+    },
+    {
+      "path": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+      "matches": true
+    },
+    {
+      "path": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "matches": true
+    },
+    {
+      "path": "contracts/DevTax.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/IHooks.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/external/IERC6909Claims.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/IProtocolFees.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/IExtsload.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/IExttload.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/libraries/SafeCast.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/interfaces/external/IERC20Minimal.sol",
+      "matches": true
+    },
+    {
+      "path": "@uniswap/v4-core/src/libraries/CustomRevert.sol",
+      "matches": true
+    }
+  ],
+  "lookupUrl": "https://sourcify.dev/server/v2/contract/4663/0x21a4CF32F7Ff2dC8c88A2fb7cD12Ad25bD2fA0cC?fields=all",
+  "publicUrl": "https://repo.sourcify.dev/4663/0x21a4CF32F7Ff2dC8c88A2fb7cD12Ad25bD2fA0cC",
+  "submittedByThisResearchTask": false
+}

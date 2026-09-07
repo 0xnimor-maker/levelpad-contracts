@@ -1,0 +1,10 @@
+{
+  "contractaddress": "0x21a4CF32F7Ff2dC8c88A2fb7cD12Ad25bD2fA0cC",
+  "contractname": "contracts/StockFeeHook.sol:StockFeeHook",
+  "codeformat": "solidity-standard-json-input",
+  "compilerversion": "v0.8.30+commit.73712a01",
+  "sourceCodeFile": "StockFeeHook.standard-input.json",
+  "constructorArguments": "0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951",
+  "autodetectConstructorArguments": false,
+  "licenseType": "3"
+}

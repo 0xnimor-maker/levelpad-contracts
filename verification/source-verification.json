@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-09-07T16:35:01.352Z",
+  "chainId": 4663,
+  "address": "0x21a4CF32F7Ff2dC8c88A2fb7cD12Ad25bD2fA0cC",
+  "contract": "contracts/StockFeeHook.sol:StockFeeHook",
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "compilerVersionForVerification": "v0.8.30+commit.73712a01",
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "viaIR": true,
+  "evmVersion": "shanghai",
+  "license": "MIT",
+  "sourceHashOfRelease": "406e07b9230b96af175f8ac76b81887017857117ccf388d5eb2ba771b8ac8fd7",
+  "constructorArguments": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951",
+  "poolManager": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+  "deploymentTransaction": "0xc5297a0dfdd97d1d91fa417bee05d4de4cfcf3cc4c79c5ccae48a8fc6f11f934",
+  "deploymentBlock": 56790590,
+  "recompiledCreationMatchesReleaseArtifact": true,
+  "block": 56980779,
+  "create2Factory": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+  "create2Salt": "0x0000000000000000000000000000000000000000000000000000000000006770",
+  "deploymentReceiptStatus": 1,
+  "deploymentInitCodeMatches": true,
+  "runtimeMatchesExactly": true,
+  "runtimeCodeHash": "0xe8abee375bccff5335840677cca23433f59c26f08a83b98030e05680a3a028e9",
+  "runtimeBytes": 6665,
+  "immutableEvidence": [
+    {
+      "astId": "39",
+      "offset": 209,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    },
+    {
+      "astId": "39",
+      "offset": 432,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    },
+    {
+      "astId": "39",
+      "offset": 714,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    },
+    {
+      "astId": "39",
+      "offset": 1738,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    },
+    {
+      "astId": "39",
+      "offset": 2425,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    },
+    {
+      "astId": "39",
+      "offset": 5580,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    },
+    {
+      "astId": "39",
+      "offset": 6299,
+      "length": 32,
+      "value": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+    }
+  ],
+  "standardInputSha256": "a4b896f73cd470e09160f9a53cb400d9f348182b3c090098b6aac75ead6abfa9",
+  "sourceFiles": [
+    "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+    "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+    "@uniswap/v4-core/src/interfaces/IExtsload.sol",
+    "@uniswap/v4-core/src/interfaces/IExttload.sol",
+    "@uniswap/v4-core/src/interfaces/IHooks.sol",
+    "@uniswap/v4-core/src/interfaces/IPoolManager.sol",
+    "@uniswap/v4-core/src/interfaces/IProtocolFees.sol",
+    "@uniswap/v4-core/src/interfaces/external/IERC20Minimal.sol",
+    "@uniswap/v4-core/src/interfaces/external/IERC6909Claims.sol",
+    "@uniswap/v4-core/src/libraries/CustomRevert.sol",
+    "@uniswap/v4-core/src/libraries/SafeCast.sol",
+    "@uniswap/v4-core/src/types/BalanceDelta.sol",
+    "@uniswap/v4-core/src/types/BeforeSwapDelta.sol",
+    "@uniswap/v4-core/src/types/Currency.sol",
+    "@uniswap/v4-core/src/types/PoolId.sol",
+    "@uniswap/v4-core/src/types/PoolKey.sol",
+    "@uniswap/v4-core/src/types/PoolOperation.sol",
+    "contracts/DevTax.sol",
+    "contracts/StockFeeHook.sol"
+  ],
+  "explorerStatus": "Confirmed in the official Blockscout browser UI: verified source with exact match, correct compiler/settings/source path/constructor.",
+  "standaloneStandardInputRecompiledExactly": true,
+  "blockscoutVerification": {
+    "status": "verified_exact_match",
+    "url": "https://robinhoodchain.blockscout.com/address/0x21a4CF32F7Ff2dC8c88A2fb7cD12Ad25bD2fA0cC?tab=contract",
+    "verificationTimestampAsDisplayed": "Sep 8, 2026, 00:40:47",
+    "timestampTimezone": "Not inferred from the UI display"
+  },
+  "sourcifyVerification": {
+    "status": "exact_match",
+    "creationMatch": "exact_match",
+    "runtimeMatch": "exact_match",
+    "verifiedAt": "2026-09-07T16:40:35Z",
+    "matchId": "47245666",
+    "evidenceFile": "sourcify-verification.json"
+  }
+}
